@@ -34,6 +34,5 @@ export default Button
 > yarn demo
 
 ![20210219161840.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210219161840.png)
-
 打开 http://localhost:1234 ，页面中出现我们的button 组件
 ![20210219161957.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210219161957.png)
