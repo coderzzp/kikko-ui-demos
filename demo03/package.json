@@ -1,0 +1,29 @@
+{
+  "name": "demo01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "parcel ./demo/index.html --out-dir ./parcel_dist",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "autoprefixer": "^9.2.4",
+    "cssnano": "^4.1.10",
+    "parcel": "^1.12.4",
+    "rollup": "^2.39.0",
+    "rollup-plugin-postcss": "^4.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
