@@ -67,6 +67,10 @@ package.json 中新增 module 字段
 执行打包脚本
 > yarn build
 
-我们发现文件夹下多了dist目录，表示打包成功
+我们发现文件夹下多了dist目录，表示打包成功  
+
 ![20210220105022.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210220105022.png)
+
+#### Reference
+[@babel/plugin-transform-runtime 到底是什么？](https://zhuanlan.zhihu.com/p/147083132)
 

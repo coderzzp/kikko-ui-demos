@@ -5,7 +5,7 @@ import cssnano from 'cssnano';
 import pkg from './package.json';
 
 export default {
-  input: 'src/index.jsx',
+  input: 'src/index.tsx',
   output: [
     { file: pkg.module, format: 'esm' },
   ],

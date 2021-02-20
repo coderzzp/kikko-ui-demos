@@ -22,8 +22,5 @@
     "parcel": "^1.12.4",
     "rollup": "^2.39.0",
     "rollup-plugin-postcss": "^4.0.0"
-  },
-  "dependencies": {
-    "classnames": "^2.2.6"
   }
 }

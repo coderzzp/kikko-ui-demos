@@ -4,6 +4,7 @@ module.exports = {
     [
       '@babel/preset-env' // 编译 ES 代码
     ],
+    '@babel/preset-typescript', // 编译 ts 代码
     '@babel/preset-react', // 编译 jsx 代码
   ],
   "plugins": [

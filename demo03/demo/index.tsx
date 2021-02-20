@@ -6,7 +6,7 @@ import Button from '../src/index';
 function Demo() {
   
   return (
-    <Button word={123}></Button>
+    <Button buttonWord={'abc'}></Button>
   );
 }
 
