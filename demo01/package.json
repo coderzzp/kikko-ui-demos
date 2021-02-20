@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "less": "^4.1.1",
+    "parcel": "^1.12.4",
+    "react": "17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
