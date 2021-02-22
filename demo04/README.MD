@@ -13,7 +13,7 @@ ok，组件代码写好了之后我们需要发到npm 让大家使用，我们�
 
 prepublishOnly这个hook会帮我们自动做打包以及编译类型处理
 ![20210222115526.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210222115526.png)
-上图表示发布成功，我们可以使用 create-react-app测试一下我们的组件库
+上图表示发布成功，我们可以使用 create-react-app测试一下我们的组件库，[demo](https://github.com/coderzzp/kikko-test)
 > npx create-react-app kikko-test --template typescript 
 kikko-test
 > cd kikko-test && yarn start
@@ -25,6 +25,5 @@ import'kikko-ui/dist/style.css';
 ```
 ![20210222122933.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210222122933.png)
 
-🚀🚀🚀 大功告成
 
 
