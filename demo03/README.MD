@@ -59,5 +59,6 @@ module.exports = {
 
 将写法改为如下，ts类型报错消失
 ![20210220120540.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210220120540.png)
+
 页面生效：
 ![20210220120606.png](https://raw.githubusercontent.com/coderzzp/cloud-image/main/vs-picgo20210220120606.png)
