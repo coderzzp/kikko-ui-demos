@@ -1,15 +1,17 @@
 {
-  "name": "demo01",
-  "version": "1.0.0",
+  "name": "kikko-ui",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "module": "dist/index.esm.js",
   "types":"dist/types/index.d.ts",
   "scripts": {
-    "build:types": "tsc --emitDeclarationOnly",
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo": "parcel ./demo/index.html --out-dir ./parcel_dist",
-    "build": "rm -rf dist && rollup -c"
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "rollup -c",
+    "build": "rm -rf dist && yarn build:types && yarn build:js",
+    "prepublishOnly": "yarn build"
   },
   "author": "",
   "license": "ISC",

@@ -42,7 +42,14 @@ module.exports = {
 
 ```
 执行 `yarn build` ，打包成功，但是我们现在打出来的文件是没有types 类型定义的，我们现在来做这件事，使用类型编译需要用到 typescript 包
-> yarn add typescript -D
+> yarn add typescript @types/react -D
+
+
+定义组件包的 types 文件
+```json
+  // package.json
+  "types":"dist/types/index.d.ts",
+```
 
 然后在package.json 文件中新增脚本编译类型
 执行 `yarn build:types` 发现 dist 文件下新增了 types 文件，这个就是当前组件的类型定义
