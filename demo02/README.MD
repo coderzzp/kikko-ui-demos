@@ -4,6 +4,7 @@
 
 根据rollup的打包规则，创建 rollup.config.js 文件
 ```js
+// rollup.config.js
 import babel from '@rollup/plugin-babel';
 import postcss from 'rollup-plugin-postcss';
 import autoprefixer from 'autoprefixer';
@@ -37,7 +38,7 @@ export default {
 ```
 rollup使用babel，那么显而易见需要 babel 配置
 ``` js
-
+// babel.config.js
 module.exports = {
   presets: [
     [
@@ -57,11 +58,13 @@ module.exports = {
 
 ```
 package.json 中新增 module 字段
-```
+```json
+// package.json
 "module": "dist/index.esm.js",
 ```
 以及新的打包脚本
-```
+```json
+// package.json
 "build": "rm -rf dist && rollup -c"
 ```
 执行打包脚本

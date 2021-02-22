@@ -19,6 +19,7 @@ export default Button
 ```
 创建组件样式
 ```less
+// src/index.less
 .kikko-button{
     color: green;
 }
@@ -28,6 +29,7 @@ export default Button
 
 在 package.json 中将 parcel 作成 npm 脚本
 ```json
+// package.json
  "demo": "parcel ./demo/index.html --out-dir ./parcel_dist"
 ```
 使用 parcel

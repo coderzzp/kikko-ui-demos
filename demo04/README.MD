@@ -3,7 +3,8 @@ ok，组件代码写好了之后我们需要发到npm 让大家使用，我们�
 > npm adduser 
 
 我们将package.json 的脚本改动一下
-```
+``` json
+// package.json
 "build:types": "tsc --emitDeclarationOnly",
 "build:js": "rollup -c",
 "build": "rm -rf dist && yarn build:types && yarn build:js",
