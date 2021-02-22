@@ -5,7 +5,7 @@
 创建源代码文件
 > mkdir src
 
-创建 index.jsx 我们的 ui 组件
+创建 ui 组件
 ```javascript
 // src/index.jsx
 import React from 'react'
